@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript" src="//abanka--tst1.widget.custhelp.com/euf/rightnow/RightNow.Client.js"></script>
+
+<script type="text/javascript">
+    RightNow.Client.Controller.addComponent(
+        {
+            container_element_id: "myChatLinkContainer",
+            info_element_id: "myChatLinkInfo",
+            link_element_id: "myChatLink",
+            instance_id: "sccl_0",
+            module: "ConditionalChatLink",
+            type: 7
+        },
+        "//abanka--tst1.widget.custhelp.com/ci/ws/get"
+    );
+</script>
+
+<div id="myChatLinkContainer">
+    <div id="myChatLink">
+        <div id="myChatLinkInfo">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
